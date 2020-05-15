@@ -17,6 +17,7 @@ numberofinputs = 2
 # SINGLE LAYER PERCEPTRON
 perceptron = Perceptron(numberofinputs)
 perceptron.train(trainingdata, targets, True)
+#perceptron.train2(trainingdata, targets, True)
 
 # Real Data Set
 print ("Real Data Set")
